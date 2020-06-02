@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Chat</title>
-	<link rel="shortcut icon" type="image/x-icon" href="icon.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js" defer></script>
-	<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js" defer></script>
-	<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js" defer></script>
-	<script type="text/javascript" src="https://lminsky.github.io/Web-Development/chat/fb.js" defer></script>
-	<script type="text/javascript" src="script.js" defer></script>
+<title>Chat</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="icon.png">
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js" defer></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js" defer></script>
+<script type="text/javascript" src="https://lminsky.github.io/Web-Development/chat/fb.js" defer></script>
+<script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
 
-	<input type="text" id="Input">
-	<button id="sendMessage">Press Me</button>
-	<div id="Messages"></div>
+<h1>Welcome to the premier chat service, <div id="logo">Strife!</div></h1>
+<br>
+<h3>Our name is completly original and not a rip off of a other chat platform who we shall not name, but it starts with a D and rimes with tiscord.</h3>
+<textarea placeholder="Input Message Here" rows="5" required="Write something here" id="Input"></textarea>
+<br>
+<button id="sendMessage">Press To Send</button>
+<div id="Messages"></div>
+
+<table id="table">
+
+</table>
 
 </body>
 </html>

@@ -1,0 +1,63 @@
+#Input{
+width: 50%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid Navy;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-family:"Times New Roman", Times, serif;  
+    font-size: 20px;
+
+}
+
+body{
+background-color: Lavender;
+text-align: center;
+}
+
+
+
+
+
+#sendMessage{
+background-color: Pink;
+font-size: 16px;
+padding: 12px 28px;
+color: black;
+border:2px solid Azure;
+border-radius: 20px;
+text-align: center;
+}
+
+#logo{
+font-family:"Times New Roman", Times, serif;  
+  color: SlateGray;
+  font-style: italic;
+  text-align: center;
+}
+
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #5F9EA0;}
+
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #708090;
+  color: white;
+}
+
+#table tr:hover {background-color: LightBlue;}
