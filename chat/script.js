@@ -22,8 +22,8 @@ function generateTableHead(table) {
   for (let key of data) {
     let th = document.createElement("th");
     let text = document.createTextNode(key);
-    th.appendChild(text);
-    row.appendChild(th);
+    th.prependChild(text);
+    row.prependChild(th);
   }
 }
 
@@ -35,7 +35,7 @@ function generateTable(table, data) {
     for (key in element) {
       let cell = row.insertCell();
       let text = document.createTextNode(element[key]);
-      cell.appendChild(text);
+      cell.prependChild(text);
     }
   }
 }

@@ -12,29 +12,19 @@ width: 50%;
 }
 
 body{
-background-color: Lavender;
+background-color: Blue;
 text-align: center;
 }
 
 
-
-
-
 #sendMessage{
-background-color: Pink;
+background-color: Red;
 font-size: 16px;
 padding: 12px 28px;
 color: black;
 border:2px solid Azure;
 border-radius: 20px;
 text-align: center;
-}
-
-#logo{
-font-family:"Times New Roman", Times, serif;  
-  color: SlateGray;
-  font-style: italic;
-  text-align: center;
 }
 
 #table {
@@ -60,4 +50,4 @@ font-family:"Times New Roman", Times, serif;
   color: white;
 }
 
-#table tr:hover {background-color: LightBlue;}
+#table tr:hover {background-color: White;}
